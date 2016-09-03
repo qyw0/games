@@ -6,13 +6,16 @@ Created on Fri Sep  2 16:26:18 2016
 """
 import random
 
+#open file contains secret words
+#file should be in the working directory
 fh = open("words.txt", "r")
 a = fh.read()
 list = a.replace("\n", ",").split(",")
 words = []
 for i in list:
     words.append(i)
- 
+
+#initialize new game 
 def new_game():
     global n, w, a
     n = 6
@@ -24,6 +27,7 @@ def new_game():
     elif d == "no":
         pass
 
+#the process of guessing
 def guess():
     global n
     while n > 0 :
@@ -44,5 +48,6 @@ def guess():
         if n == 0:
            print ("you lose")
            new_game()
-           
+
+#don't forget this           
 new_game()
