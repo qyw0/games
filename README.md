@@ -1,4 +1,4 @@
 # Mini Games
-> Something written in Python2 when taking Python courses @Coursera
+> Something written in Python2 when taking Python courses
 ### Easy to Run
-> Copy and paste codes to [CodeSkulptor](http://www.codeskulptor.org)
+> Copy and paste codes to [CodeSkulptor](http://www.codeskulptor.org) (exept 'hangman')
